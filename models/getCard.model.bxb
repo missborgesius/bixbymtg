@@ -1,8 +1,8 @@
 action (getCard) {
   description ()
   collect {
-    input (__INPUT_NAME__) {
-      type (__INPUT_TYPE__)
+    input (cardName) {
+      type (CardName)
       min (Optional) max (One)
     }
   }

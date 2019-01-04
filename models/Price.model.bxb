@@ -1,0 +1,3 @@
+decimal (Price) {
+  description (The current average price of the card across sales outlets)
+}
