@@ -1,10 +1,11 @@
 action (getCard) {
+  type (Search)
   description ()
   collect {
     input (cardName) {
       type (CardName)
-      min (Optional) max (One)
+      min (Required) max (Many)
     }
   }
-  output (__OUTPUT__)
+  output (Price)
 }
