@@ -1,0 +1,7 @@
+structure (Card) {
+  description (A Magic Card)
+  property (__PROPERTY_NAME__) {
+    type (__PROPERTY_TYPE__)
+    min (Optional) max (One)
+  }
+}
