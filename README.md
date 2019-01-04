@@ -11,3 +11,7 @@ Card Name | "Hill Giant"
 Output | Example
 -|- 
 Card Price | $0.98
+
+## Must Have Utterances
+
+- "What is the current price of Hill Giant?"
