@@ -1,0 +1,11 @@
+action (getCardPrice) {
+  type (Search)
+  description (Get the current price of a card)
+  collect {
+    input (cardName) {
+      type (cardName)
+      min (Required) max (One)
+    }
+  }
+  output (cardPrice)
+}
